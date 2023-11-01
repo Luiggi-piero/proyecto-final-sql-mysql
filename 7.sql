@@ -1,0 +1,11 @@
+-- CANTIDAD DE REGISTROS DE LA TABLA CLIENTES
+SELECT COUNT(*) FROM clientes;
+
+
+SELECT * FROM clientes LIMIT 5;
+SELECT * FROM clientes;
+SELECT * FROM clientes LIMIT 5,1;
+
+SELECT f_cliente_aleatorio() AS DNI_ALEATORIO;
+
+SELECT f_producto_aleatorio() AS PRODUCTO_ALEATORIO;
